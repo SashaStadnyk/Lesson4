@@ -1,23 +1,33 @@
-div {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
-    color: ccc;
+.wrapper{
+    width: 786px;
+    margin:auto;
 }
 
 
 
 
-.class1 {
-    background-color: red;
-    font-weight: bold;
+h1 {
+    background-color:#a62525;
+    color: white;
+    text-align: center;
+}
+.sunset {
+    display: block;
+    margin: auto;
+    width: 786px;
+    height: 221px;
+}
+.cars {
+    display:flex;
+    justify-content: center;
+}
+.cars img {
+    border:2px dashed black;
+}
+h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
-.class2 {
-    background-color: blue;
-    font-style: italic;
-}
 
-.class1>.class2 {
-    color: yellow;
-}
